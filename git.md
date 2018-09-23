@@ -11,5 +11,8 @@ git push origin master
 
 git pull --rebase origin master
 
+要检查已有的配置信息，可以使用 
+
+git config --list 
  
 ```
