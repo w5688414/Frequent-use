@@ -18,3 +18,6 @@ print("b before optimize: {}".format(b_before_opt))
 
 device = paddle.get_device()
 print(device)
+
+# 多卡测试
+paddle.utils.run_check()
